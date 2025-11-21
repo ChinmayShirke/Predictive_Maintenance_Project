@@ -4,8 +4,9 @@ import pickle
 import time
 import threading
 import psycopg2
-from dotenv import load_dotenv
 import os
+from dotenv import load_dotenv
+
 
 # --------------------------- LOAD ENV ---------------------------
 load_dotenv()
